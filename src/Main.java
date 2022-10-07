@@ -12,10 +12,9 @@ class Main {
 
         System.out.println("The amount of paint used is: " + PaintUsed + "m");
 
-        int
+        int CansUsed = (int) (PaintUsed / CanSize) + 1;
 
-        System.out.println("The amount of can used is: " );
-
-
+        System.out.println("The amount of cans used is: " + CansUsed);
+        
     }
 }
